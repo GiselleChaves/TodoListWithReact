@@ -1,0 +1,24 @@
+:root {
+  --grey: #bcbcc3;
+  --black: #272727;
+  --pink: #f06197;
+  --green: #36b59f;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.body {
+  background: var(--grey); /*NÃO ESTÁ FUNCIONANDO*/
+}
+
+body,
+input,
+textarea,
+button {
+  font-size: 1rem;
+  font-family: sans-serif;
+}

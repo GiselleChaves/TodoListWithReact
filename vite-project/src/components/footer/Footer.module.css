@@ -1,0 +1,12 @@
+.Footer {
+  background-color: var(--black);
+  padding: 0.5rem 1rem;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+p {
+  color: var(--grey);
+  text-align: center;
+}

@@ -1,0 +1,1 @@
+export * from "./Header"; /*RESPONSÁVEL POR EXPORTAR O QUE ESTIVER NO ARQUIVO .JSX */
