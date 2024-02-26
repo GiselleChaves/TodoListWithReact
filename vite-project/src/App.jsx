@@ -1,20 +1,15 @@
-import {
-  Header,
-  Content,
-  Footer,
-} from "./components"; /*CTRL + ESPAÇO => TRAZ OPÇÕES DE COMPONENTS QUE PODERÃO SER IMPORTADAS AUTO COMPLETE*/
+//import { Header, Content, Footer } from "./components";
+/*CTRL + ESPAÇO => TRAZ OPÇÕES DE COMPONENTS QUE PODERÃO SER IMPORTADAS AUTO COMPLETE*/
 import "./App.css";
-import { Initial } from "./pages/Initial/Initial";
+import { BrowserRouter } from "react-router-dom";
+//import { Initial } from "./pages";
+import { Router } from "./Router";
 
 const App = () => {
   return (
-    <>
-      <Header />
-      <Content>
-        <Initial />
-      </Content>
-      <Footer creator="Chaves" />
-    </>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   );
 };
 
